@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Project Worldview - Nemura</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/Worldview.js"></script>
+
+</head>
+
+<body>
+    <!-- <div class="Fix"> -->
+        <div class="Background ">
+            <img src="Images/Star Background.png" />
+        </div>
+        <div class=" Overlay1" > 
+            <img src="Images/Star Background Overlay 1.png" />
+        </div>
+        <div class=" Overlay2"> 
+            <img src="Images/Star Background Overlay 2.png" />
+        </div>
+        <div class=" Overlay3"> 
+            <img src="Images/Star Background Overlay 3.png" />
+        </div>
+    <!-- </div> -->
+    <a href="Homepage.html" class=" WorldviewLogo"> <img src="Images/Worldview Logo.png"  alt="Project Worldview"/> </a>
+    <div class="Container">
+
+        <div class="TextBox TBN">
+            <div class="NHeader NName">
+                 <h1>NEMURA</h1> 
+             </div>
+    
+             <div class="CharSprite">
+                <div class="Select ">
+                    
+                    <button type="button" class="SurfSelect OriginBox" onclick="Surf()" id="surfBtn"><h2>Origin Form</h2></button>
+                    <button type="button" class="TurfSelect AlteredBox" onclick="Turf()" id="turfBtn"><h2>Altered Form</h2></button>
+                </div>
+                <div class="NemuraSurf"><img src="Images/Nemura_Surf_Sprite_Idle.png" id="NemuraSurf"></div>
+                <!-- <div class="divider"></div> -->
+                <div class="NemuraTurf"><img src="Images/Nemura_Turf_Sprite_Idle.png" id="NemuraTurf" style="opacity: 0;" ></div>
+                <!-- <img src="Images/Marmite_Sprite_Idle-1.png" onmouseover="this.src='Images/C.N._Hi-Jynx_Sprit_Idle.png'" onmouseleave="this.src='Images/Marmite_Sprite_Idle-1.png'" onclick="changeMT()"/> -->
+             </div>
+
+                <ul>
+                    <li> Name: Nemura</li>
+                    <br>
+                    <li>Species: Mermaid (Origin Form), Harpy (Altered Form)</li>
+                    <br>
+                    <li>Biological Age: 26 </li>
+                    <br>
+                    <li>Gender: Female</li>
+                    <br>
+                    <li>Height: 6'9" ft / 206cm</li>
+                  </ul>    
+
+             <div class="NHeader HCharecters">
+                <h1>INFORMATION</h1> 
+            </div>
+
+            <p>
+                A Mermaid whose sense of adventure is almost as strong as her sleepy personality, she originally knew little outside of the sea she lived in, not knowing what lay past its sheer cliffs. With the power of a special dream pearl she found at the bottom of the sea one day, she's able to transform into a harpy and soar across the sky. She eventually came to reside at Worldview, where she travels to other worlds to find the perfect place for her next name. While her blank expression and near zen-like state might make one underestimate her, her reflexes are surprisingly fast when in danger, and knows how to fight as well. While an airheaded person as one might expect, she can have her moments where she can reveal just how intelligent she actually is.
+            </p>
+            <div class="NHeader HTrivia">
+                <h1>TR<span style="letter-spacing: -.5px;">IV</span>IA</h1> 
+            </div>
+
+            <ul>
+                <li>The original design for Nemura Origin Form was a full Mermaid with a full tail with no legs. This was changed to better match the Altered form.</li>
+                <br>
+                <li>The term Origin Form and Altered Form is a reference to Pokemon, where the Creation Trio each has a form with the same name.</li>
+                <br>
+                <li>Besides being called her Origin and Altered Forms, unofficially they’re also referred to as her Surf and Turf Forms, which can be seen in a lot of the file names or her drawings.</li>
+                    <br>
+                        <li>The original idea for Nemura would have had her based off of Sakura’s and have a pink color pallet. This was changed to the more blue-green pallet she'd always had before a draft of a pink design was made. This idea would later be used for Somei instead.</li>
+                <br>
+                        <li>Nemura’s name comes from ‘nemu’ which is sleep in Japanese, and ‘sakura’, a remnant of her original cherry blossom theming.
+                        </li>
+                <br>
+                        <li>She is known to hold her hand up to her face a lot. The reason for this is unknown.</li>
+              <br>
+                <li>The concept for a character that can transform between an aquatic form and an Aireal form that would turn into Nemura was inspired by the Hippogryphs and Seaponies of My Little Pony.</li>
+                <br>
+                <li>She’s also based on Nemu from That Time I Got Reincarnated as a Slime: Trinity in Tempest, which is where her sleepy personality and holding her hand to her face come from.</li>
+                <br>
+                <li>Her Altered Harpy form is also based on the Harpys in Reincarnated as a Slime, which is notable for having separate wings on their backs.</li>
+                <br>
+                <li>Despite Aranie’s distance from most people, she considers Nemura a friend and the only person on Worldview she feels she can truly talk to.</li>
+                <br>
+                <li>The pearl she wears is able to transform her due to it being her deepest wish by the either it absorbs. If removed, Nemura will be stuck in what ever from she currently is in.</li>
+           
+            </ul>
+            <div class="NHeader HGallery">
+                <h1>GALLERY</h1> 
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="Gallery"  >
+                <a class="GalleryItem"  id="Gallery1"><img src="images/Nemura Gallery/Sleepy Nemura Doodle.png" alt="Sleeping Nemura"></a>
+                <a class="GalleryItem"id="Gallery2"> <img src="images/Nemura Gallery/Nemura of the pool Panel 1 line gold text.png" alt="Nemura of the pool Panel 1"></a>
+                <a class="GalleryItem"id="Gallery3"> <img src="images/Nemura Gallery/Nemura of the pool Panel 2 line gold text.png" alt="Nemura of the pool Panel 2"></a>
+                <a class="GalleryItem"  id="Gallery4"><img src="images/Nemura Gallery/Nemura Surf color.png" alt="OG Surf"></a>
+                <a class="GalleryItem"  id="Gallery5"><img src="images/Nemura Gallery/Nemura Turf color.png" alt="OG Turf"></a>
+                <a class="GalleryItem"  id="Gallery6"><img src="images/Nemura Gallery/Sliding Nemura.png" alt="Sliding Nemura"></a>
+                <a class="GalleryItem" id="Gallery7"><img src="images/Nemura Gallery/Sleepy Nemura Turf solid.png" alt="Sleepy Nemura Turf"></a>
+                <a class="GalleryItem" id="Gallery8"><img src="images/Nemura Gallery/Beach Day Nemura Summer Saga 2022 transparent.png" alt="Beach Day Nemura"></a>
+            </div>
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <div class="NHeader HCharecters">
+                <h1>CHARACTERS</h1> 
+            </div>
+
+            <div class="CharBar1">
+                <a href="Marmite_Tempest.html" class="NavHome ActiveMT"><img src="images/Marmite portrait 3.png" alt="Marmite Tempest" id="MarmiteIcon" />  </a>
+                <a class="NavHome NA"><img src="images/Keoko_portrait-1.png" alt="Keoko"> </a>
+                <a class="NavHome NA"><img src="images/Somei portrait.png" alt="Somei"></a>
+                <a class="NavHome NA"><img src="images/Aranie_portrait-2.png" alt="Aranie Von Belus"></a>
+
+                <a class="NavHome GlowK"><img src="images/character portrait glow.png" alt="glow"></a>
+                <a class="NavHome GlowN"><img src="images/character portrait glow.png" alt="glow"></a>
+                <a class="NavHome GlowYS"><img src="images/character portrait glow.png" alt="glow"></a>
+                <a class="NavHome GlowAVB"><img src="images/character portrait glow.png" alt="glow"><a></a>
+
+            </div>
+            <div class="CharBar1alt">
+
+                <a class="NavHome NA"><img src="images/Elyss portrait.png" alt="Elyss"></a>
+                <a class="NavHome NA"><img src="images/Mika portrait.png" alt="Mika"></a>
+                <a class="NavHome NA"><img src="images/Valzilikx portrait.png" alt="Valzilikx"></a>
+                <a href="C.N. Hi-Jynx.html" class="NavHome ActiveCNHJ"><img src="images/C.N._Hi-Jynx_portrait-3.png" alt="C.N. Hi-Jynx"></a>
+
+                <a class="NavHome GlowE"><img src="images/character portrait glow.png" alt="glow"></a>
+                <a class="NavHome GlowM"><img src="images/character portrait glow.png" alt="glow"></a>
+                <a class="NavHome GlowV"><img src="images/character portrait glow.png" alt="glow"></a>
+                <a class="NavHome GlowCNHJ"><img src="images/character portrait glow.png" alt="glow"></a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- <script>
+        function changeImage(fileName){
+            let img = document.querySelector("#NemuraSprite");
+            img.setAttribute("scr",fileName);
+        }
+    </script> -->
+
+    <script>
+        function Surf() {
+            /* Access image by id and change 
+            the display property to block*/
+            document.getElementById('NemuraSurf')
+            .style.opacity = "1.0";
+            document.getElementById('NemuraTurf')
+            .style.opacity = "0";
+        }
+
+        function Turf() {
+            /* Access image by id and change 
+            the display property to block*/
+            document.getElementById('NemuraTurf')
+            .style.opacity = "1.0";
+            document.getElementById('NemuraSurf') 
+            .style.opacity = "0";
+        }
+    </script>
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script>
+    tippy('#Gallery1', {
+        content: 'A doodle of a sleeping Nemura',
+        placement: 'bottom',
+        theme: 'Nemura',
+        arrow: false,
+    });
+
+    tippy('#Gallery2', {
+        content: 'First pannel of a drawing of Marmite and Neumra based off of the Senpai of the Pool meme',
+        placement: 'bottom',
+        theme: 'Nemura',
+        arrow: false,
+    });    
+
+    tippy('#Gallery3', {
+        content: 'Second pannel of a drawing of Neumra based off of the Senpai of the Pool meme',
+        placement: 'bottom',
+        theme: 'Nemura',
+        arrow: false,
+    });    
+
+    tippy('#Gallery4', {
+        content: 'The first design for Nemuras Origin Form',
+        placement: 'bottom',
+        theme: 'Nemura',
+        arrow: false,
+    }); 
+
+    tippy('#Gallery5', {
+        content: 'The first design for Nemuras Altered Form',
+        placement: 'bottom',
+        theme: 'Nemura',
+        arrow: false,
+    }); 
+
+    tippy('#Gallery6', {
+        content: 'A doodle of a Sliding Nemura',
+        placement: 'bottom',
+        theme: 'Nemura',
+        arrow: false,
+    }); 
+
+    tippy('#Gallery7', {
+        content: 'A tired Nemura in her original Altered design',
+        placement: 'bottom',
+        theme: 'Nemura',
+        arrow: false,
+    }); 
+
+    tippy('#Gallery8', {
+        content: 'Original Origin Form Nemura sitting',
+        placement: 'bottom',
+        theme: 'Nemura',
+        arrow: false,
+    }); 
+
+    tippy('#Gallery9', {
+        content: 'Drawing of the 3rd Marmite design but as an Inkling for an Artist Collab',
+        placement: 'bottom',
+        theme: 'Marmite',
+        arrow: false,
+    }); 
+    </script>
+  </body>
+</html>
